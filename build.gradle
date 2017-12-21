@@ -23,5 +23,7 @@ allprojects {
 }
 
 task clean(type: Delete) {
+    println("Project cleaning in progress....")
+
     delete rootProject.buildDir
 }
