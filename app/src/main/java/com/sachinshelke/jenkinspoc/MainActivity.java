@@ -1,7 +1,7 @@
 package com.sachinshelke.jenkinspoc;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,9 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        ((TextView)findViewById(R.id.txt)).setText("Hi This Damini's First Demo");
-
-
+        TextView tv = ((TextView) findViewById(R.id.txt));
+        tv.setText("Hi This Damini's First Demo");
 
 
     }
